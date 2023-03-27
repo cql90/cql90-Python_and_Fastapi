@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   job1:
-    run-on: windows-latest
+    run-on: windows-la
     steps:
       - name: pulling github repo
         uses: actions/checkout@v2

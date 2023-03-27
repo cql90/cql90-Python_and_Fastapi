@@ -1,0 +1,16 @@
+name: Build and Deploy Code
+
+on: [push, pull_request]
+
+jobs:
+  job1:
+    run-on: ubun
+
+# on: [push, pull_request]
+#   push:
+#     branches:
+#       - "main"
+#       - "another branch"
+#   pull_request:
+#     branches:
+#       - "any branch"
